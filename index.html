@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8dc;
+            text-align: center;
+        }
+
+        h1 {
+            color: #8b0000;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 70%;
+            background-color: #ffffff;
+        }
+
+        th {
+            background-color: #ff6347;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffe4b5;
+        }
+
+        tr:hover {
+            background-color: #f5deb3;
+        }
+
+        .veg {
+            color: green;
+            font-weight: bold;
+        }
+
+        .nonveg {
+            color: brown;
+            font-weight: bold;
+        }
+
+        .dessert {
+            color: purple;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Restaurant Food Menu</h1>
+
+    <table>
+        <tr>
+            <th>Food Item</th>
+            <th>Category</th>
+            <th>Price ($)</th>
+        </tr>
+        <tr>
+            <td>Corn Pizza</td>
+            <td class="veg">Vegetarian</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Chicken Burger</td>
+            <td class="nonveg">Non-Vegetarian</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Cheese Pasta</td>
+            <td class="veg">Vegetarian</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Grilled Chicken</td>
+            <td class="nonveg">Non-Vegetarian</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Chocolate Ice Cream</td>
+            <td class="dessert">Dessert</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+</body>
+</html>
